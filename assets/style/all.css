@@ -1,3 +1,91 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.body {
+  line-height: 1.5 !important;
+  font-family: 'Roboto', sans-serif; }
+
+.area {
+  padding: 0px 32px 32px 32px; }
+
+.area2 {
+  padding: 0px 24px 24px 24px; }
+
+h1, h2, h3, h4, h5, h6, p, ul, li, span, form, a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+h1, h2, h3, h4, p {
+  color: #212529; }
+
+h1 {
+  font-size: 24px;
+  font-weight: bold; }
+
+h2 {
+  font-size: 16px;
+  font-weight: bold; }
+
+h3 {
+  font-size: 14px; }
+
+h4 {
+  font-size: 12px;
+  color: #6C757D; }
+
+p {
+  font-size: 14px; }
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+.material-icons {
+  vertical-align: middle; }
+
+.d-block {
+  display: block; }
+
+.bold {
+  font-weight: bold; }
+
+.lh-1_5 {
+  line-height: 1.5; }
+
+.pt-12 {
+  padding-top: 12px; }
+
+.pt-32 {
+  padding-top: 32px; }
+
+.pt-40 {
+  padding-top: 40px; }
+
+.pr-8 {
+  padding-right: 8px; }
+
+.pr-25 {
+  padding-right: 25px; }
+
+.pl-0 {
+  padding-left: 0; }
+
+.no-border {
+  border: none !important; }
+
+.bg-white {
+  background-color: white; }
+
+.bg-gray {
+  background-color: #F8F9FA; }
+
+.green {
+  color: #198754; }
+
 .ex-header {
   height: 200px;
   background-color: #00cc99; }
@@ -19,5 +107,62 @@
   .ex-box:hover {
     width: 200px;
     background-color: #00cc99; }
+
+.card-header {
+  padding: 0 0 25px 0;
+  border: none; }
+
+.list-group-item {
+  padding: 15px 0; }
+
+.list-group-item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #212529; }
+
+.list-group-item a h2 {
+  vertical-align: middle;
+  line-height: 1.5; }
+
+.list-group-item span.material-icons {
+  padding-right: 17px; }
+
+.header {
+  padding: 32px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.header-add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  line-height: 1.5; }
+
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: 0; }
+
+.table > :not(caption) > * > * {
+  padding: 1rem 0.5rem; }
+
+.footer {
+  padding: 47px 0 8px 0; }
+
+.page-link {
+  color: #198754;
+  border: 1px solid #198754; }
 
 /*# sourceMappingURL=all.css.map */

@@ -1,0 +1,58 @@
+.card-header {
+  padding: 0 0 25px 0;
+  border: none; }
+
+.list-group-item {
+  padding: 15px 0; }
+
+.list-group-item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #212529; }
+
+.list-group-item a h2 {
+  vertical-align: middle;
+  line-height: 1.5; }
+
+.list-group-item span.material-icons {
+  padding-right: 17px; }
+
+.header {
+  padding: 32px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.header-add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  line-height: 1.5; }
+
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: 0; }
+
+.table > :not(caption) > * > * {
+  padding: 1rem 0.5rem; }
+
+.footer {
+  padding: 47px 0 8px 0; }
+
+.page-link {
+  color: #198754;
+  border: 1px solid #198754; }
+
+/*# sourceMappingURL=w5-web.css.map */
