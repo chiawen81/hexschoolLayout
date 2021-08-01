@@ -1,12 +1,12 @@
-.header {
+.ex-header {
   height: 200px;
   background-color: #00cc99; }
 
-.footer {
+.ex-footer {
   height: 200px;
   background-color: #00cc99; }
 
-.box {
+.ex-box {
   width: 100px;
   height: 100px;
   background-color: red;
@@ -16,7 +16,7 @@
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s; }
-  .box:hover {
+  .ex-box:hover {
     width: 200px;
     background-color: #00cc99; }
 
