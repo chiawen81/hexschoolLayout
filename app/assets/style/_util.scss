@@ -1,0 +1,39 @@
+.d-block{
+    display: block;
+}
+.bold{
+    font-weight: bold;
+}
+.lh-1_5{
+    line-height: 1.5;
+}
+.pt-12{
+    padding-top: 12px;
+}
+.pt-32{
+    padding-top: 32px;
+}
+.pt-40{
+    padding-top: 40px;
+}
+.pr-8{
+    padding-right: 8px;
+}
+.pr-25{
+    padding-right: 25px;
+}
+.pl-0{
+    padding-left: 0;
+}
+.no-border{
+    border: none !important;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-gray{
+    background-color: $color-bg-gray;
+}
+.green{
+    color: $color-word-green;
+}

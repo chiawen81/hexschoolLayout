@@ -1,0 +1,64 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.body {
+    line-height: 1.5 !important;
+    font-family: 'Roboto', sans-serif;
+}
+.area{
+    padding: 0px 32px 32px 32px;
+}
+.area2{
+    padding: 0px 24px 24px 24px;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li, span, form, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4,p {
+    color:$color-word-black;
+
+}
+
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+h4 {
+    font-size: 12px;
+    color:$color-word-gray;
+}
+p {
+    font-size: 14px;
+}
+
+// li a, li a:visited,button a, button a:visited {
+//     color: white;
+// }
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.material-icons{
+    vertical-align: middle;
+}

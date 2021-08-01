@@ -1,0 +1,52 @@
+@import "_variable.scss";
+
+
+
+// 左側欄header
+.card-header{
+    padding: 0 0 25px 0;
+    border: none;
+}
+.list-group-item{
+    padding: 15px 0;
+}
+.list-group-item a{
+    display: flex;
+    color: $color-word-black;
+}
+.list-group-item a h2{
+    vertical-align: middle;
+    line-height: 1.5;
+}
+.list-group-item span.material-icons{
+    padding-right: 17px;
+}
+
+// 右邊header
+.header{
+    padding: 32px 0;
+    display: flex;
+    align-items: center;
+}
+.header-add{
+    display: flex;
+    justify-content: flex-start;
+    line-height: 1.5;
+}
+.icon{
+display: flex;
+justify-content: flex-end;
+padding-left: 0;
+}
+// 表格
+.table>:not(caption)>*>*{
+    padding: 1rem 0.5rem;
+}
+// 換頁碼
+.footer{
+    padding: 47px 0 8px 0;
+}
+.page-link{
+    color: $color-word-green;
+    border: 1px solid $color-word-green;
+}
