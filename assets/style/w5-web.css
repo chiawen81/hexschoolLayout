@@ -1,9 +1,23 @@
+.card {
+  max-width: 15rem !important; }
+
 .card-header {
-  padding: 0 0 25px 0;
+  padding: 0 0 29px 32px;
   border: none; }
 
-.list-group-item {
-  padding: 15px 0; }
+.left-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 92vh; }
+
+.list-group li.list-group-item {
+  padding: 11px 0;
+  background-color: #F8F9FA; }
 
 .list-group-item a {
   display: -webkit-box;
@@ -13,10 +27,23 @@
 
 .list-group-item a h2 {
   vertical-align: middle;
-  line-height: 1.5; }
+  line-height: 2; }
 
 .list-group-item span.material-icons {
-  padding-right: 17px; }
+  padding-right: 17px;
+  line-height: 1.5; }
+
+.account-img {
+  height: 40px;
+  width: 40px;
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week5/andychen.jpeg);
+  border-radius: 50%;
+  background-size: contain;
+  background-position: center center; }
+
+.border-left-green {
+  border-left: 7px solid green !important;
+  padding-left: 25px; }
 
 .header {
   padding: 32px 0;
@@ -54,5 +81,9 @@
 .page-link {
   color: #198754;
   border: 1px solid #198754; }
+
+li.page-item a:hover {
+  background-color: #198754;
+  color: white; }
 
 /*# sourceMappingURL=w5-web.css.map */
