@@ -1,8 +1,11 @@
+.vh100{
+   height: 100vh; 
+}
 .d-block{
     display: block;
 }
-.bold{
-    font-weight: bold;
+.flex-grow-1{
+    flex-grow: 1;
 }
 .lh-1_5{
     line-height: 1.5;
@@ -13,11 +16,11 @@
 .pt-32{
     padding-top: 32px;
 }
-.pt-40{
-    padding-top: 40px;
-}
 .pr-8{
     padding-right: 8px;
+}
+.pr-32{
+    padding-right: 32px;
 }
 .pr-25{
     padding-right: 25px;
@@ -25,8 +28,23 @@
 .pl-0{
     padding-left: 0;
 }
+.pl-32{
+    padding-left: 32px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.mr-16{
+    margin-right: 16px;
+}
+.bold{
+    font-weight: bold;
+}
 .no-border{
     border: none !important;
+}
+.no-bolder-bottom{
+    border-bottom: none !important;
 }
 .bg-white{
     background-color: white;

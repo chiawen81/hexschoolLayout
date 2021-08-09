@@ -2,13 +2,22 @@
 
 
 
-// 左側欄header
+// ———————————— 左側欄header ————————————
+.card{
+    max-width: 15rem !important;
+}
 .card-header{
-    padding: 0 0 25px 0;
+    padding: 0 0 29px 32px;
     border: none;
 }
-.list-group-item{
-    padding: 15px 0;
+.left-menu{
+    display: flex;
+    flex-direction: column;
+    height: 92vh;
+}
+.list-group li.list-group-item{
+    padding: 11px 0;
+    background-color: $color-bg-gray;
 }
 .list-group-item a{
     display: flex;
@@ -16,13 +25,28 @@
 }
 .list-group-item a h2{
     vertical-align: middle;
-    line-height: 1.5;
-}
-.list-group-item span.material-icons{
-    padding-right: 17px;
+    line-height: 2;
 }
 
-// 右邊header
+.list-group-item span.material-icons{
+    padding-right: 17px;
+    line-height: 1.5;
+
+}
+.account-img{
+    height: 40px;
+    width: 40px;
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/week5/andychen.jpeg);
+    border-radius: 50%;
+    background-size: contain;
+    background-position: center center;
+}
+// 點擊左側欄更換的css樣式
+.border-left-green{
+    border-left: 7px solid green !important;
+    padding-left: 25px;
+}
+// ———————————— 右邊header ————————————
 .header{
     padding: 32px 0;
     display: flex;
@@ -38,15 +62,20 @@ display: flex;
 justify-content: flex-end;
 padding-left: 0;
 }
-// 表格
+// ———————————— 表格 ————————————
 .table>:not(caption)>*>*{
     padding: 1rem 0.5rem;
 }
-// 換頁碼
+// ———————————— 換頁碼 ————————————
 .footer{
     padding: 47px 0 8px 0;
 }
 .page-link{
     color: $color-word-green;
     border: 1px solid $color-word-green;
+}
+// 點擊頁碼更換的css樣式
+li.page-item a:hover{
+    background-color: $color-word-green;
+    color: white;
 }
